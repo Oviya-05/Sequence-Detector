@@ -86,7 +86,7 @@ endmodule
 ~~~
 ![image](https://github.com/user-attachments/assets/2de5960a-19c6-4d11-a162-492c940e31e0)
 
-
+Verilog Code for Sequence Detector Using Mealy FSM
 ~~~
 module fsm_sequence(
     input clk,
@@ -141,6 +141,10 @@ module fsm_sequence(
 endmodule
 ~~~
 ![Screenshot 2024-10-10 144925](https://github.com/user-attachments/assets/b439657e-1b19-4801-951f-bf5bdf68a360)
+Testbench for Sequence Detector (Moore and Mealy FSMs)
+
+// sequence_detector_tb.v `timescale 1ns / 1ps
+
 
 ~~~
 module tb_fsm_sequence;
